@@ -43,7 +43,13 @@ header nav ul li a {
     text-align: center;
 }
 
-h1 {
-    color: brown;
+.card p {
+    font-size: 10px;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    
+}
