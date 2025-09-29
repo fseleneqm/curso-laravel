@@ -26,7 +26,11 @@ header nav ul {
 
 header nav ul li {
     margin: 5px;
-    
+}
+
+header nav ul li a {
+    color: #6b6b6b;
+    text-decoration: none;
 }
 
 h1 {
