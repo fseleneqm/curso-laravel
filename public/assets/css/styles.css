@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* medida del elemento hasta el borde */
+}
+
+header {
+    width: 100vw; /* según ancho de pantalla */
+    height: 70px;
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex; /* responsive */
+    align-items: center;
+    font-weight: bold;
+}
+
+header nav {
+    width: 100vw;
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 5px;
+    
+}
+
+h1 {
+    color: brown;
+}
+
