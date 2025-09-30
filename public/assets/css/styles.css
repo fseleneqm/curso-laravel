@@ -1,15 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* medida del elemento hasta el borde */
+    box-sizing: border-box;
 }
 
 header {
-    width: 100vw; /* según ancho de pantalla */
+    width: 100vw;
     height: 70px;
     background-color: antiquewhite;
     padding: 10px;
-    display: flex; /* responsive */
+    display: flex;
     align-items: center;
     font-weight: bold;
 }
@@ -51,5 +51,8 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    
+}
+
+.main {
+    padding: 10px;
 }
