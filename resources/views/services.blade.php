@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'service')
+@section('title', 'services')
 
 @section('content')
 <div class="main">
@@ -16,10 +16,6 @@
         @endcomponent
         @component('_components.card')
             @slot('title', 'Service 3')
-            @slot('content', 'lorem ipsum dolor aimt.')
-        @endcomponent
-        @component('_components.card')
-            @slot('title', 'Service 4')
             @slot('content', 'lorem ipsum dolor aimt.')
         @endcomponent
     </div>
